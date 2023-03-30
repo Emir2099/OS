@@ -14,7 +14,7 @@ body{
 .taskbar{
     background-color: #f3f3f3;
     position: absolute;
-    bottom: 0;
+    bottom: -3px;
     display: flex;
     width: 100%;
     z-index: 110;
@@ -31,7 +31,7 @@ body{
 
 .startmenu{
     /* bottom: 50px; */
-    bottom: -680px;
+    bottom: -700px;
     position: absolute;
     width: 100%;
     text-align: center;
