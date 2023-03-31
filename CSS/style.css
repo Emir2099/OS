@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    /* background-image: url('back.jpg'); */
+    /* background-size: cover; */
+    overflow: hidden;
+    height: 100vh;
+
+}
+
+/* WHOLE TASKBAR */
+
+.taskbar{
+    background-color: #f3f3f3;
+    position: absolute;
+    bottom: -3px;
+    display: flex;
+    width: 100%;
+    z-index: 110;
+    justify-content: center;
+}
+
+/* -------------------------------------- */
+
+/* FOR RIGHT SIDE */
+
+.righticon{
+    position: absolute;
+    justify-self: flex-end;
+    right: 16px;
+    bottom: 0px;
+    margin: 6px;
+    height: 85%;
+}
+
+/* -------------------------------------- */
+
+/* FOR START MENU */
+
+.startmenu{
+    /* bottom: 50px; */
+    bottom: -700px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+.startmenu img{
+    border-radius: 8px;
+}
+
+/* -------------------------------------- */
+
+/* FOR SEARCH MENU */
+
+.searchmenu{
+    /* bottom: 50px; */
+    bottom: -700px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+.searchmenu img{
+    border-radius: 8px;
+}
+
+/* -------------------------------------- */
+
+
+/* PARENT CHILD IN ICONS */
+
+.icons {
+    /* border: 1px solid black; */
+    margin: 0rem;
+    padding: 0rem 1rem;
+    text-align: center;
+  }
+
+.windowsicon{
+    /* padding: 5%; */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.searchesicon{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* ----------------------------------- */
+
+
+
