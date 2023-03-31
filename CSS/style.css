@@ -102,3 +102,21 @@ body{
 
 
 
+.vscimage{
+    /* bottom: 50px; */
+    bottom: -700px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    transition: all;
+}
+
+.vscicon:hover{
+    opacity: 0.8;
+}
+.windowsicon:hover{
+    opacity: 0.8;
+}
+.searchesicon:hover{
+    opacity: 0.8;
+}
