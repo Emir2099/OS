@@ -93,6 +93,11 @@ body{
     vertical-align: middle;
 }
 
+.vscicon{
+    display: inline-block;
+    vertical-align: middle;
+}
+
 /* ----------------------------------- */
 
 
